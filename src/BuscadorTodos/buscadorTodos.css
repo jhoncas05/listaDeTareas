@@ -1,0 +1,26 @@
+.buscadorTodos {
+    background: #F9FBFC;
+    border-radius: 7px;
+    border: 2px solid #202329;
+    margin: 0 24px;
+    height: 64px;
+    width: calc(100% - 62px);
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #472139;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+    
+  }
+  
+  .buscadorTodos::placeholder {
+    color: #472139;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    opacity: 0.3;
+  }
+  
+  .buscadorTodos:focus {
+    outline-color: #E368B4;
+  }
