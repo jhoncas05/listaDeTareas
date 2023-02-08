@@ -39,7 +39,7 @@ function TodoForm(){
       if(newTodoValue.length <= 0){
         Swal.fire({
           icon: 'error',
-          title: 'Oops...',
+          title: 'Oops, ocurrio un error...',
           text: 'No puedes añadir tareas vacias!'
         })
       }
