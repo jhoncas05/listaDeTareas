@@ -1,11 +1,13 @@
 import React from "react";
+import { TodoContext } from "../TodoContext";
 import "./contadorTodos.css";
 
 
-function ContadorTodos({total, completed}){
+function ContadorTodos(){
+    const {totalTodos, todosCompletos} = React.useContext(TodoContext);
     return(
         <>
-        <h2 className="contadorTodos">  Haz completado {completed} de {total} todos</h2>
+        <h2 className="contadorTodos"> <i className="bi bi-card-checklist"></i>  Haz completado {todosCompletos} de {totalTodos} todos</h2>
         </>
         
     );

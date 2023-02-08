@@ -1,8 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(85deg, #acb86b 0, #a1bb70 3.33%, #96bd76 6.67%, #8abf7d 10%, #7dc186 13.33%, #70c38f 16.67%, #62c498 20%, #54c5a3 23.33%, #43c5ad 26.67%, #31c6b7 30%, #18c6c2 33.33%, #00c5cc 36.67%, #00c5d5 40%, #00c4de 43.33%, #00c3e6 46.67%, #0cc1ed 50%, #2ebff3 53.33%, #46bdf7 56.67%, #5bbafa 60%, #6eb7fc 63.33%, #80b4fc 66.67%, #92b1fb 70%, #a2adf9 73.33%, #b1a9f4 76.67%, #bfa5ef 80%, #cba2e9 83.33%, #d69ee1 86.67%, #e09bd9 90%, #e898cf 93.33%, #ef96c6 96.67%, #f495bc 100%);
-  color: #1E1E1F;
+  background-image: radial-gradient(circle at 50% -20.71%, #ffffeb 0, #ffffe7 4.55%, #ffffe2 9.09%, #ffffdd 13.64%, #ffffd8 18.18%, #ffffd2 22.73%, #ffffcc 27.27%, #fdffc7 31.82%, #eefec1 36.36%, #ddfbbc 40.91%, #caf7b8 45.45%, #b5f2b5 50%, #9eedb4 54.55%, #85e9b5 59.09%, #6ae4b9 63.64%, #4ae0bf 68.18%, #0addc6 72.73%, #00dacf 77.27%, #00d6d9 81.82%, #00d4e3 86.36%, #00d1ee 90.91%, #00cff8 95.45%, #00ccff 100%);
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
@@ -12,7 +11,13 @@ body {
   min-height: 100vh;
 }
 
+#modal{
+  z-index: 999;
+  position: fixed;
+  box-shadow: #dd20a5c5;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }

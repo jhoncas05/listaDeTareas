@@ -1,6 +1,6 @@
 .botonCrearTodo {
-    background-color: #E368B4;
-    box-shadow: 0px 5px 25px rgba(250, 97, 247, 0.5);
+    background-color: #f352b8b4;
+    box-shadow: 0px 5px 25px rgba(241, 19, 215, 0.5);
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -17,8 +17,10 @@
     width: 64px;
     transform: rotate(0);
     transition: .3s ease;
+    z-index: 999 ;
   }
   
   .botonCrearTodo:hover {
     transform: rotate(224deg);
+    background-color: #fc0da0;
   }

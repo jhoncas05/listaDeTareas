@@ -4,7 +4,7 @@
     border: 2px solid #202329;
     margin: 0 24px;
     height: 64px;
-    width: calc(100% - 62px);
+    width: calc(90% - 62px);
     font-size: 24px;
     text-align: center;
     font-family: 'Montserrat';
@@ -23,4 +23,13 @@
   
   .buscadorTodos:focus {
     outline-color: #E368B4;
+  }
+
+  #lupa{
+    font-size: 35px;
+  }
+
+  #lupa:hover{
+    color: #E368B4 ;
+    cursor: pointer;
   }

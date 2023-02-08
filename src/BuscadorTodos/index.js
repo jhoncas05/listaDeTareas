@@ -1,20 +1,26 @@
 import React from "react";
+import { TodoContext } from "../TodoContext";
 import './buscadorTodos.css';
 
-function BuscadorTodos({searchValue, setSearchValue}){
+function BuscadorTodos(){
+    const {searchValue, setSearchValue} = React.useContext(TodoContext);
+
     const onSearchValueChange = (event) => {
         console.log(event.target.value);
         setSearchValue(event.target.value);
     };
 
-    return( 
+    return[  
         <input 
         className="buscadorTodos" 
-        placeholder="Nuevo ToDo"
+        placeholder="Buscar ToDos "
         value={searchValue}
         onChange={onSearchValueChange}
-        />
-    );
+        />,
+        <i id="lupa" className="bi bi-search"></i>
+        
+        
+    ];
 }
 
 export {BuscadorTodos};
