@@ -20,6 +20,7 @@ function BuscadorTodos(){
         <i id="lupa" className="bi bi-search"></i>
         
         
+        
     ];
 }
 

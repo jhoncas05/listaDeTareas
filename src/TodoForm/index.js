@@ -47,8 +47,6 @@ function TodoForm(){
       
     }
 
-    
-
     return( 
         <form onSubmit={onSubmit} >
       <label>Añade una nueva tarea</label>
@@ -63,7 +61,7 @@ function TodoForm(){
           className="TodoForm-button TodoForm-button--cancel"
           onClick = {onCancel}
         >
-          Cancelar
+          Cancelar <i id="circleCancel" className="bi bi-x-circle"></i>
         </button>
 
         <button
@@ -71,7 +69,7 @@ function TodoForm(){
           className="TodoForm-button TodoForm-button--add"
           onClick={onAlert}
         >
-          Añadir
+          Añadir <i id="circleAdd" className="bi bi-plus-circle"></i>
         </button>
       </div>
     </form>

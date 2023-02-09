@@ -22,14 +22,17 @@
   }
   
   .buscadorTodos:focus {
-    outline-color: #E368B4;
+    outline-color: #0b8ff3;
   }
 
   #lupa{
     font-size: 35px;
+
+    transition: 0.5s;
   }
 
   #lupa:hover{
-    color: #E368B4 ;
+    color:#0b8ff3 ;
     cursor: pointer;
+
   }
