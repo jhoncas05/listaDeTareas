@@ -4,23 +4,11 @@ import './todosLoading.css'
 function TodosLoading(){
     return(
         <>
-        <div className="LoadingTodo-container">
-            <span className="LoadingTodo-completeIcon"></span>
-            <p className="LoadingTodo-text">Cargando Tareas...</p>
-            <span className="LoadingTodo-deleteIcon"></span>
-        </div>
 
         <div className="LoadingTodo-container">
-            <span className="LoadingTodo-completeIcon"></span>
-            <p className="LoadingTodo-text">Cargando Tareas...</p>
-            <span className="LoadingTodo-deleteIcon"></span>
+            <img id="logoCargando" className="LoadingTodo-completeIcon LoadingTodo-text LoadingTodo-deleteIcon" src="http://localhost:3000/3579899.png" alt="estamos cargando..."></img>
         </div>
 
-        <div className="LoadingTodo-container">
-            <span className="LoadingTodo-completeIcon"></span>
-            <p className="LoadingTodo-text">Cargando Tareas...</p>
-            <span className="LoadingTodo-deleteIcon"></span>
-        </div>
         </>
         
         

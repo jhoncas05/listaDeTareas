@@ -3,12 +3,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 24px;
-    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+    margin-top: 50px;
     border-radius: 3%;
     opacity: 0.7;
   }
-
+/* 
   .LoadingTodo-text {
     margin: 24px 0 24px 24px;
     width: calc(100% - 120px);
@@ -33,25 +32,27 @@
     position: absolute;
     top: -24px;
     right: 0;
+  } */
+
+  .LoadingTodo-container{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    animation: rotation 2s infinite linear;
+  }
+   
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
 
-  .LoadingTodo-container,
-  .LoadingTodo-completeIcon,
-  .LoadingTodo-deleteIcon{
-    background: linear-gradient(90deg, rgb(199, 193, 193), rgb(48, 58, 65));
-    background-size: 400% 400%;
-    animation: loadingAnimation 3s ease-in-out infinite;
-    opacity: 0.7;
-  }
-
-  @keyframes loadingAnimation{
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
+  #logoCargando{
+    width: 250px;
+    height: 250px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
   }
