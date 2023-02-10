@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jhoncas05/listaDeTareas/static/css/main.85b1b05a.css",
-    "main.js": "/jhoncas05/listaDeTareas/static/js/main.d9f010be.js",
-    "static/media/bootstrap-icons.woff?": "/jhoncas05/listaDeTareas/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
-    "static/media/bootstrap-icons.woff2?": "/jhoncas05/listaDeTareas/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
-    "index.html": "/jhoncas05/listaDeTareas/index.html",
-    "main.85b1b05a.css.map": "/jhoncas05/listaDeTareas/static/css/main.85b1b05a.css.map",
-    "main.d9f010be.js.map": "/jhoncas05/listaDeTareas/static/js/main.d9f010be.js.map"
+    "main.css": "/github.io/listaDeTareas/static/css/main.e9e65e1f.css",
+    "main.js": "/github.io/listaDeTareas/static/js/main.d9f010be.js",
+    "static/media/bootstrap-icons.woff?": "/github.io/listaDeTareas/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/github.io/listaDeTareas/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "index.html": "/github.io/listaDeTareas/index.html",
+    "main.e9e65e1f.css.map": "/github.io/listaDeTareas/static/css/main.e9e65e1f.css.map",
+    "main.d9f010be.js.map": "/github.io/listaDeTareas/static/js/main.d9f010be.js.map"
   },
   "entrypoints": [
-    "static/css/main.85b1b05a.css",
+    "static/css/main.e9e65e1f.css",
     "static/js/main.d9f010be.js"
   ]
 }
