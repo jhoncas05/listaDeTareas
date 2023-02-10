@@ -1,0 +1,22 @@
+#imgNoDisponible{
+    display: flex;
+    align-items: center;
+
+    margin-top: 25px;
+    width:250px ;
+    height: 250px;
+}
+
+/* #textNoDisponible{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+#contenedorNoDisponible{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.6;
+}

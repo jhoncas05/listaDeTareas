@@ -6,7 +6,7 @@
     margin-top: 24px;
     box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
     border-radius: 3%;
-    opacity: 0.6;
+    opacity: 0.7;
   }
 
   .LoadingTodo-text {
@@ -38,9 +38,10 @@
   .LoadingTodo-container,
   .LoadingTodo-completeIcon,
   .LoadingTodo-deleteIcon{
-    background: linear-gradient(90deg, rgb(255, 255, 255), rgb(35, 51, 61));
+    background: linear-gradient(90deg, rgb(199, 193, 193), rgb(48, 58, 65));
     background-size: 400% 400%;
     animation: loadingAnimation 3s ease-in-out infinite;
+    opacity: 0.7;
   }
 
   @keyframes loadingAnimation{

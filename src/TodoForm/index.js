@@ -12,7 +12,7 @@ function TodoForm(){
     const {
       addTodo,
       setOpenModal,
-      setModalALert
+ 
     } = React.useContext(TodoContext);
 
     const onChange = (event) => {
@@ -27,7 +27,7 @@ function TodoForm(){
     const onSubmit = (event) => {
       event.preventDefault();
       if(newTodoValue.length <= 0){
-        setModalALert(true)
+        
       }else{
         addTodo(newTodoValue);
         setOpenModal(false);
@@ -36,16 +36,14 @@ function TodoForm(){
     };
 
     const onAlert = () => {
-      if(newTodoValue.length <= 0){
-        Swal.fire({
-          icon: 'error',
-          title: 'Oops, ocurrio un error...',
-          text: 'No puedes añadir tareas vacias!'
-        })
+      if(newTodoValue.length <= 0 ){
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops, ocurrio un error...',
+            text: 'No puedes añadir tareas vacias!'
+          })
+        }
       }
-
-      
-    }
 
     return( 
         <form onSubmit={onSubmit} >
