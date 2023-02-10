@@ -71,8 +71,9 @@ textarea:focus {
 }
 
 .TodoForm-button--add:hover {
-  background: #69b8dae5;
+  background: #14749de5;
   box-shadow: 0px 5px 25px rgb(6, 233, 245);
+  transform: rotate(-10deg);
 }
 
 .TodoForm-button--cancel {
@@ -82,14 +83,24 @@ textarea:focus {
 }
 
 .TodoForm-button--cancel:hover {
-  background: #cf4949e5;
+  background: #812020e5;
   box-shadow: 0px 5px 25px #ff0101;
+  transform: rotate(-10deg);
 }
 
 #circleAdd{
   color: #00bfff;
+  transform: rotate(0);
+  transition: .3s ease;
 }
 
 #circleCancel{
   color: #ff0000;
+  transform: rotate(0);
+  transition: .3s ease;
 }
+
+.circleCancel:hover {
+  transform: rotate(224deg);
+}
+

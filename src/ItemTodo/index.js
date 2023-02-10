@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineClear, AiOutlineSisternode } from "react-icons/ai";
 import "./itemTodo.css";
 
 function ItemTodo(props){
@@ -7,15 +8,15 @@ function ItemTodo(props){
         <span className={`Icon Icon-check ${props.completed && 'Icon-check--active'}`}
         onClick={props.onComplete}
         >
-            ✔
+            <AiOutlineSisternode/>
         </span>
-        <p className={`itemTodo-p ${props.completed && 'itemTodo-p--complete'}`}>
-            {props.text}
+        <p id="text" className={`itemTodo-p ${props.completed && 'itemTodo-p--complete'}`}>
+           <strong>{props.text}</strong> 
         </p>
         <span className="Icon Icon-delete"
         onClick={props.onDelete}
         >
-            X
+            <AiOutlineClear id="iconoEscoba"></AiOutlineClear>
         </span>
     </li>
     );

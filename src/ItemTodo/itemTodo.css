@@ -7,7 +7,7 @@
     align-items: center;
     margin-top: 24px;
     box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
-    /* opacity: 0.3; */
+    opacity: 0.9;
   }
 
   .itemTodo--complete{
@@ -25,6 +25,12 @@
     text-decoration: line-through;
   }
   
+  #text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .Icon {
     cursor: pointer;
     display: flex;
@@ -52,8 +58,7 @@
   }
    
   .Icon-delete {
-    position: absolute;
-    top: -24px;
+    position: absolute;   
     right: 0;
     
   }
@@ -62,3 +67,18 @@
     color: red;
     
   }
+
+  #iconoEscoba:hover{
+    animation: sweep 1s infinite;
+  }
+
+  @keyframes sweep {
+    0% {
+      transform: translateX(-25%);
+    }
+    100% {
+      transform: translateX(25%);
+    }
+  }
+
+ 
