@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/listaDeTareas/static/css/main.d5fdc111.css",
+    "main.js": "/listaDeTareas/static/js/main.44f10ec7.js",
+    "static/media/bootstrap-icons.woff?": "/listaDeTareas/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/listaDeTareas/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "index.html": "/listaDeTareas/index.html",
+    "main.d5fdc111.css.map": "/listaDeTareas/static/css/main.d5fdc111.css.map",
+    "main.44f10ec7.js.map": "/listaDeTareas/static/js/main.44f10ec7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5fdc111.css",
+    "static/js/main.44f10ec7.js"
+  ]
+}
