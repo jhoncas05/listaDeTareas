@@ -13,5 +13,3 @@ function EmptyTodos(){
 }
 
 export {EmptyTodos}
-
-//comentario
