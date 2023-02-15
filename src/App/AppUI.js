@@ -11,6 +11,8 @@ import { TodoForm } from "../TodoForm";
 import {TodosError} from '../TodosError';
 import {TodosLoading} from '../TodosLoading';
 import { EmptyTodos } from "../EmptyTodos";
+import { ProgressBar } from "../ProgressBar";
+
 
 
 function AppUi() {
@@ -27,6 +29,8 @@ function AppUi() {
         <>
       <ContadorTodos/>
     <BuscadorTodos/>
+    <ProgressBar/>
+
     
             <ListaTodos>
                 {error && <TodosError error={error}/> }
