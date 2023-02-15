@@ -5,7 +5,12 @@ import './progressBar.css'
 function ProgressBar() {
     const {totalTodos, todosCompletos} = React.useContext(TodoContext);
     return(
-        <progress id="progress" max={totalTodos} value={todosCompletos}></progress>
+        <div id="progress">
+            <progress id="progress-bar" max={totalTodos} value={todosCompletos}>
+                {/* <span class="progress-bar-text">75%</span> */}
+            </progress>
+        </div>
+        
     );
 }
 

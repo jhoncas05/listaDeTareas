@@ -1,8 +1,16 @@
-#progress{
-    background-color: #f3f3f3;
-    border: 1px;
-    height: 38px;
-    width: 200px; 
-    border-radius: 9px; 
-    color: #000000;
+/* #progress{
+    height: 35px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#progress-bar {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #428bca;
+   
+} */
+
+progress { background-color: #f3f3f3; border: 1px; height: 38px; width: 200px; border-radius: 9px; color: #000000;}
