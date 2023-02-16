@@ -27,8 +27,8 @@ function AppUi() {
 
     return(
         <>
+        <ProgressBar/>
       <ContadorTodos/>
-      <ProgressBar/>
     <BuscadorTodos/>
     
 

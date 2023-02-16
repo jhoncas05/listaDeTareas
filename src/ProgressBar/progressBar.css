@@ -1,15 +1,23 @@
-
+#contenedorProgress{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    
+}
 
 #progressBar{
     border-radius: 9px;
     border: 2px solid rgb(8, 36, 57);
     height: 38px; 
-    width: 17%;;
-    position: fixed;
+    width: 27%;;
     z-index: 1000;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    display: block;
+    width: 50%;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
 }
 
 ::-webkit-progress-bar{
@@ -17,23 +25,17 @@
     background: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    text-align: center;
 }
 
 ::-webkit-progress-value{
     background: #14b0db;
     border-radius: 9px;
     display: flex;
-    justify-content: center;
-    text-align: center;
 }
 
 ::-webkit-progress-inner-element {
     border-radius: 9px;
     border: 2px solid rgb(8, 36, 57);
-    display: flex;
-    justify-content: center;
-    text-align: center;
   }
 
 
