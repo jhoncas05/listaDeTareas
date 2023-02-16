@@ -1,16 +1,29 @@
-/* #progress{
-    height: 35px;
-    width: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#contenedorProgress{
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 20PX;
 }
 
-#progress-bar {
-    height: 100%;
-    width: 100%;
-    border: 1px solid #428bca;
-   
-} */
+#progressBar{
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 38px; 
+    width: 200px;
+}
 
-progress { background-color: #f3f3f3; border: 1px; height: 38px; width: 200px; border-radius: 9px; color: #000000;}
+::-webkit-progress-bar{
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+}
+
+::-webkit-progress-value{
+    background: #14b0db;
+    border-radius: 10px;
+}
+
+::-webkit-progress-inner-element {
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+/* 
+progress { border: 1px;  border-radius: 9px; color: #000000;} */
