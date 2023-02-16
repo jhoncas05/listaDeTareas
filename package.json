@@ -54,7 +54,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0" 
   },
   "homepage": "https:///jhoncas05.github.io/listaDeTareas/"
 }
