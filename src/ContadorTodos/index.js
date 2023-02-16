@@ -7,7 +7,7 @@ function ContadorTodos(){
     const {totalTodos, todosCompletos} = React.useContext(TodoContext);
     return(
         <>
-        <h2 className="contadorTodos"> <i className="bi bi-card-checklist">  </i>  Tenes Pendientes {todosCompletos} de {totalTodos} Tareas</h2>
+        <h2 className="contadorTodos"> <i className="bi bi-card-checklist">  </i>  Haz completado {todosCompletos} de {totalTodos} Tareas</h2>
         </>
         
     );
