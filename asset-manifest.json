@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/listaDeTareas/static/css/main.25be07ab.css",
-    "main.js": "/listaDeTareas/static/js/main.1b4c365e.js",
-    "static/media/bootstrap-icons.woff?": "/listaDeTareas/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
-    "static/media/bootstrap-icons.woff2?": "/listaDeTareas/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
-    "index.html": "/listaDeTareas/index.html",
-    "main.25be07ab.css.map": "/listaDeTareas/static/css/main.25be07ab.css.map",
-    "main.1b4c365e.js.map": "/listaDeTareas/static/js/main.1b4c365e.js.map"
+    "main.css": "/lista-de-tareas/static/css/main.95e8397f.css",
+    "main.js": "/lista-de-tareas/static/js/main.1b4c365e.js",
+    "static/media/bootstrap-icons.woff?": "/lista-de-tareas/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/lista-de-tareas/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "index.html": "/lista-de-tareas/index.html",
+    "main.95e8397f.css.map": "/lista-de-tareas/static/css/main.95e8397f.css.map",
+    "main.1b4c365e.js.map": "/lista-de-tareas/static/js/main.1b4c365e.js.map"
   },
   "entrypoints": [
-    "static/css/main.25be07ab.css",
+    "static/css/main.95e8397f.css",
     "static/js/main.1b4c365e.js"
   ]
 }
