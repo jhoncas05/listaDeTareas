@@ -22,6 +22,7 @@ function AppUi() {
             completeTodo, 
             deleteTodo,
             openModal,
+            // toggleComplete,
             setOpenModal,
         } = React.useContext(TodoContext);
 
@@ -45,6 +46,9 @@ function AppUi() {
                 completed={todo.completed}
                 onComplete={() => completeTodo(todo.text)}
                 onDelete={() => deleteTodo(todo.text)}
+                // onChange={() => toggleComplete(prevState => !prevState)}
+                
+                
             />
           ))}
         </ListaTodos>

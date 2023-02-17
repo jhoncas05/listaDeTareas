@@ -43,6 +43,7 @@ function TodoProvider(props){
     const newTodos = [...todos]
     newTodos[indexTodo].completed = true;
     saveTodos(newTodos);
+
   }
 
   const deleteTodo = (text) => {
@@ -51,6 +52,20 @@ function TodoProvider(props){
     newTodos.splice(indexTodo, 1);
     saveTodos(newTodos);
   }
+
+  // const toggleComplete = (text) => {
+  //   const indexTodo = todos.findIndex(todo => todo.text === text);
+  //   const newTodos = [...todos]
+  //   newTodos[indexTodo].completed = false;
+  //   saveTodos(newTodos);
+  //   };
+
+  //   const clickButton = () => {
+  //     props.setCompletoTodo(prevState => !prevState);
+  // }
+    
+  // se debe crear un estado para manejar el atributo completed de los todos en newTodos
+ 
 
 
     return(
@@ -65,6 +80,8 @@ function TodoProvider(props){
             addTodo,
             completeTodo,
             deleteTodo,
+            // clickButton,
+            // toggleComplete,
             openModal,
             setOpenModal,
         }}>
